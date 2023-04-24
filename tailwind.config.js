@@ -4,14 +4,14 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
-      color: {
-        blue: "#2CBCE9",
-        red: "#DC4492",
-        yellow: "#FDCC49",
-        grey: "#ededed",
+      colors: {
         "deep-blue": "#010026",
+        blue: "#2cbce9",
+        red: "#dc4492",
+        yellow: "#fdcc49",
+        grey: "#ededed",
         "dark-grey": "#757575",
-        "opaque-black": "rgba(0,0,0,0.35)",
+        "opaque-black": "rgba(0, 0, 0, 0.35)",
       },
       backgroundImage: (theme) => ({
         "gradient-rainbow":
@@ -34,6 +34,7 @@ module.exports = {
       xs: "480px",
       sm: "768px",
       md: "1060px",
+      
     },
   },
   plugins: [],
