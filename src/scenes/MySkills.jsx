@@ -74,11 +74,7 @@ const MySkills = () => {
           <p className="mt-5">
             Nam quia Quis qui blanditiis voluptate ea quisquam saepe non quia
             voluptate. Est eaque asperiores et tenetur delectus vel consequuntur
-            nobis et expedita officiis id illum voluptates cum vitae dolor. Est
-            placeat quia et veritatis eius quo magnam suscipit et nisi assumenda
-            qui quia aperiam aut deleniti inventore. Ut provident beatae est
-            nihil consequatur sit temporibus nostrum non consequatur placeat ad
-            quia explicabo ab debitis quod.
+            nobis et expedita officiis id illum voluptates cum vitae dolor.
           </p>
         </motion.div>
         {/* INNOVATIVE */}
@@ -105,11 +101,7 @@ const MySkills = () => {
           <p className="mt-5">
             Nam quia Quis qui blanditiis voluptate ea quisquam saepe non quia
             voluptate. Est eaque asperiores et tenetur delectus vel consequuntur
-            nobis et expedita officiis id illum voluptates cum vitae dolor. Est
-            placeat quia et veritatis eius quo magnam suscipit et nisi assumenda
-            qui quia aperiam aut deleniti inventore. Ut provident beatae est
-            nihil consequatur sit temporibus nostrum non consequatur placeat ad
-            quia explicabo ab debitis quod.
+            nobis et expedita officiis id illum voluptates cum vitae dolor. 
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -136,11 +128,7 @@ const MySkills = () => {
           <p className="mt-5">
             Nam quia Quis qui blanditiis voluptate ea quisquam saepe non quia
             voluptate. Est eaque asperiores et tenetur delectus vel consequuntur
-            nobis et expedita officiis id illum voluptates cum vitae dolor. Est
-            placeat quia et veritatis eius quo magnam suscipit et nisi assumenda
-            qui quia aperiam aut deleniti inventore. Ut provident beatae est
-            nihil consequatur sit temporibus nostrum non consequatur placeat ad
-            quia explicabo ab debitis quod.
+            nobis et expedita officiis id illum voluptates cum vitae dolor. 
           </p>
         </motion.div>
       </div>
