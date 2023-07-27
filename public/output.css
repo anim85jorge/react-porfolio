@@ -656,6 +656,11 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -706,6 +711,10 @@ video {
 
 .mt-7{
   margin-top: 1.75rem;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
 }
 
 .flex{
@@ -786,6 +795,14 @@ video {
 
 .basis-3\/5{
   flex-basis: 60%;
+}
+
+.basis-1{
+  flex-basis: 0.25rem;
+}
+
+.basis-1\/2{
+  flex-basis: 50%;
 }
 
 .resize{
@@ -899,6 +916,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -934,6 +955,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.py-48{
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
 .pb-16{
   padding-bottom: 4rem;
 }
@@ -956,10 +982,6 @@ video {
 
 .pt-10{
   padding-top: 2.5rem;
-}
-
-.pt-16{
-  padding-top: 4rem;
 }
 
 .pt-32{
@@ -1035,6 +1057,14 @@ video {
   color: rgb(253 204 73 / var(--tw-text-opacity));
 }
 
+.placeholder-opaque-black::-webkit-input-placeholder{
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.placeholder-opaque-black::placeholder{
+  color: rgba(0, 0, 0, 0.35);
+}
+
 .opacity-0{
   opacity: 0;
 }
@@ -1096,29 +1126,24 @@ body,
   top: -70px;
 }
 
-.before\:left-\[-50\%\]::before{
-  content: var(--tw-content);
-  left: -50%;
-}
-
-.before\:top-\[-120\]::before{
-  content: var(--tw-content);
-  top: -120;
-}
-
-.before\:top-\[-50\%\]::before{
-  content: var(--tw-content);
-  top: -50%;
-}
-
 .before\:left-1\/2::before{
   content: var(--tw-content);
   left: 50%;
 }
 
+.before\:left-\[-50\%\]::before{
+  content: var(--tw-content);
+  left: -50%;
+}
+
 .before\:top-\[-120px\]::before{
   content: var(--tw-content);
   top: -120px;
+}
+
+.before\:top-\[-50\%\]::before{
+  content: var(--tw-content);
+  top: -50%;
 }
 
 .before\:z-\[-1\]::before{
@@ -1129,11 +1154,6 @@ body,
 .before\:-ml-\[110px\]::before{
   content: var(--tw-content);
   margin-left: -110px;
-}
-
-.before\:ml-\[110px\]::before{
-  content: var(--tw-content);
-  margin-left: 110px;
 }
 
 .before\:h-6::before{
@@ -1316,6 +1336,10 @@ body,
 
   .md\:justify-start{
     justify-content: flex-start;
+  }
+
+  .md\:justify-end{
+    justify-content: flex-end;
   }
 
   .md\:justify-between{
