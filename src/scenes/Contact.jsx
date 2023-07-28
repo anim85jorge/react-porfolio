@@ -136,3 +136,6 @@ const Contact = () => {
   );
 };
 export default Contact;
+
+/* $ npx tailwindcss -i ./src/index.css -o ./public/output.css --watch 
+left off 02:30:00 */

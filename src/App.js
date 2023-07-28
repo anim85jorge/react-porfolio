@@ -1,14 +1,14 @@
 import Navbar from "./scenes/Navbar";
-import DotGroup from "./scenes/DotGroup"
-import Landing from "./scenes/Landing"
-import MySkills from "./scenes/MySkills"
-import Projects from "./scenes/Projects"
+import DotGroup from "./scenes/DotGroup";
+import Landing from "./scenes/Landing";
+import MySkills from "./scenes/MySkills";
+import Projects from "./scenes/Projects";
 import Testimonials from "./scenes/Testimonials";
 import Contact from "./scenes/Contact";
+import Footer from "./scenes/Footer";
 import { useEffect, useState } from "react";
 import LineGradient from "./components/LineGradient";
 import useMediaQuery from "./hooks/useMediaQuery";
-
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -40,21 +40,24 @@ function App() {
         )}
         <Landing setSelectedPage={setSelectedPage} />
       </div>
-      <LineGradient/>
+      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
-        <MySkills/>
+        <MySkills />
       </div>
-      <LineGradient/>
+      <LineGradient />
       <div className="w-5/6 mx-auto">
-        <Projects/>
+        <Projects />
       </div>
-      <LineGradient/>
+      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
-        <Testimonials/>
+        <Testimonials />
       </div>
-      <LineGradient/>
+      <LineGradient />
       <div className="w-5/6 mx-auto md:h-full">
-        <Contact/>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
